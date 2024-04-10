@@ -29,7 +29,7 @@ mode: rule
 
 # 设置日志输出级别 (默认级别：silent，即不输出任何内容，以避免因日志内容过大而导致程序内存溢出）。
 # 5 个级别：silent / error / warning / info / debug。级别越高日志输出量越大，越倾向于调试，若需要请自行开启。
-log-level: info
+log-level: error
 
 # Clash 的 RESTful API
 external-controller: '127.0.0.1:9090'
@@ -72,21 +72,13 @@ dns:
      - '*.lan'
      - localhost.ptlogin2.qq.com
   nameserver:
+     - 192.168.123.2
      - 223.5.5.5 # 阿里DNS
-     - 180.76.76.76 # 百度DNS
      - 117.50.11.11 # ONE DNS拦截版 恶意网站拦截、广告过滤
-     - 117.50.10.10 # ONE DNS纯净版 直接返回其真实的响应结果
-     - 114.114.114.114 # 114DNS
-     - https://dns.alidns.com/dns-query # 阿里 DoH DNS
-     - https://doh.360.cn/dns-query # 360 DoH DNS
   fallback:
+     - 192.168.123.2
      - 8.8.8.8 # 谷歌DNS
-     - 1.1.1.1 # Cloudflare DNS
-     - tls://dns.rubyfish.cn:853
      - tls://1.0.0.1:853
-     - tls://dns.google:853
-     - https://cloudflare-dns.com/dns-query
-     - https://dns.google/dns-query
   fallback-filter:
      geoip: true # 默认
      ipcidr: # 在这个网段内的 IP 地址会被考虑为被污染的 IP
