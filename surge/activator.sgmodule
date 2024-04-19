@@ -1,0 +1,23 @@
+#!name=Activation Script
+#!desc=Activate your software by interceping the activation process - @wibus-wee
+
+
+[MITM]
+hostname = %APPEND% as.as, api.lemonsqueezy.com, v3.paddleapi.com, api.gumroad.com, buy.itunes.apple.com, backend.raycast.com, shottr.cc
+
+
+
+[Script]
+activation-script-dashboard = type=http-request,pattern=^https://as.as/,requires-body=1,max-size=0,script-path=https://github.com/wibus-wee/activation-script/releases/download/v1.7.0/activator.js,script-update-internal=86400
+dashboard-test-as.as = type=http-request,pattern=^http://as.as/test,requires-body=1,max-size=0,debug=1,script-path=https://github.com/wibus-wee/activation-script/releases/download/v1.7.0/activator.js,script-update-internal=86400
+dashboard--as.as = type=http-request,pattern=^http://as.as/,requires-body=1,max-size=0,debug=1,script-path=https://github.com/wibus-wee/activation-script/releases/download/v1.7.0/activator.js,script-update-internal=86400
+lemonSqueezy-activate-api.lemonsqueezy.com = type=http-request,pattern=^https://api.lemonsqueezy.com/v1/licenses/activate,requires-body=1,max-size=0,debug=1,script-path=https://github.com/wibus-wee/activation-script/releases/download/v1.7.0/activator.js,script-update-internal=86400
+lemonSqueezy-validate-api.lemonsqueezy.com = type=http-request,pattern=^https://api.lemonsqueezy.com/v1/licenses/validate,requires-body=1,max-size=0,debug=1,script-path=https://github.com/wibus-wee/activation-script/releases/download/v1.7.0/activator.js,script-update-internal=86400
+lemonSqueezy-deactivate-api.lemonsqueezy.com = type=http-request,pattern=^https://api.lemonsqueezy.com/v1/licenses/deactivate,requires-body=1,max-size=0,debug=1,script-path=https://github.com/wibus-wee/activation-script/releases/download/v1.7.0/activator.js,script-update-internal=86400
+paddle-activate-v3.paddleapi.com = type=http-request,pattern=^https://v3.paddleapi.com/3.2/license/activate,requires-body=1,max-size=0,debug=1,script-path=https://github.com/wibus-wee/activation-script/releases/download/v1.7.0/activator.js,script-update-internal=86400
+paddle-validate-v3.paddleapi.com = type=http-request,pattern=^https://v3.paddleapi.com/3.2/license/verify,requires-body=1,max-size=0,debug=1,script-path=https://github.com/wibus-wee/activation-script/releases/download/v1.7.0/activator.js,script-update-internal=86400
+gumroad-validate-api.gumroad.com = type=http-request,pattern=^https://api.gumroad.com/v2/licenses/verify,requires-body=1,max-size=0,debug=1,script-path=https://github.com/wibus-wee/activation-script/releases/download/v1.7.0/activator.js,script-update-internal=86400
+itunes-verifyReceipt-buy.itunes.apple.com = type=http-request,pattern=^https://buy.itunes.apple.com/verifyReceipt,requires-body=1,max-size=0,debug=1,script-path=https://github.com/wibus-wee/activation-script/releases/download/v1.7.0/activator.js,script-update-internal=86400
+shottr-validate-shottr.cc = type=http-request,pattern=^https://shottr.cc/licensing/verify.php,requires-body=1,max-size=0,debug=1,script-path=https://github.com/wibus-wee/activation-script/releases/download/v1.7.0/activator.js,script-update-internal=86400
+shottr-api/telemetry.php-shottr.cc = type=http-request,pattern=^https://shottr.cc/api/telemetry.php,requires-body=1,max-size=0,debug=1,script-path=https://github.com/wibus-wee/activation-script/releases/download/v1.7.0/activator.js,script-update-internal=86400
+
