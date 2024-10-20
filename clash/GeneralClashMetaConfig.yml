@@ -63,7 +63,7 @@ experimental:
 #   'alpha.clash.dev': '::1'
 
 dns:
-  enable: false # 是否启用dns false
+  enable: true # 是否启用dns false
   ipv6: true
   default-nameserver:
     - 223.5.5.5
@@ -79,11 +79,11 @@ dns:
     'geosite:cn': https://doh.pub/dns-query
     'geosite:geolocation-!cn': [tls://8.8.4.4, https://1.0.0.1/dns-query]
   nameserver:
-     - 192.168.123.2
-     - https://dns.alidns.com/dns-query
+     - 119.29.29.29
+     - 223.5.5.5
      - 117.50.11.11 # ONE DNS拦截版 恶意网站拦截、广告过滤
   fallback:
-     - 192.168.123.2
+     - 1.1.1.1
      - 8.8.8.8 # 谷歌DNS
      - tls://1.0.0.1:853
   proxy-server-nameserver:
