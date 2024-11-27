@@ -1,0 +1,68 @@
+HOST,wmff.warnermediacdn.com, Max
+HOST-SUFFIX,bcbolthboa-a.akamaihd.net, Max
+HOST-SUFFIX,cf-images.ap-southeast-1.prod.boltdns.net, Max
+HOST-SUFFIX,cinemax.com, Max
+HOST-SUFFIX,dai3fd1oh325y.cloudfront.net, Max
+HOST-SUFFIX,execute-api.ap-southeast-1.amazonaws.com, Max
+HOST-SUFFIX,execute-api.us-east-1.amazonaws.com, Max
+HOST-SUFFIX,forthethrone.com, Max
+HOST-SUFFIX,hbo.com, Max
+HOST-SUFFIX,hbo.com.c.footprint.net, Max
+HOST-SUFFIX,hbo.com.edgesuite.net, Max
+HOST-SUFFIX,hbo.map.fastly.net, Max
+HOST-SUFFIX,hboasia.com, Max
+HOST-SUFFIX,hboasia1-i.akamaihd.net, Max
+HOST-SUFFIX,hboasia2-i.akamaihd.net, Max
+HOST-SUFFIX,hboasia3-i.akamaihd.net, Max
+HOST-SUFFIX,hboasia4-i.akamaihd.net, Max
+HOST-SUFFIX,hboasia5-i.akamaihd.net, Max
+HOST-SUFFIX,hboasialive.akamaized.net, Max
+HOST-SUFFIX,hbogeo.cust.footprint.net, Max
+HOST-SUFFIX,hbogo.co.th, Max
+HOST-SUFFIX,hbogo.com, Max
+HOST-SUFFIX,hbogo.eu, Max
+HOST-SUFFIX,hbogoasia.com, Max
+HOST-SUFFIX,hbogoasia.hk, Max
+HOST-SUFFIX,hbogoasia.id, Max
+HOST-SUFFIX,hbogoasia.ph, Max
+HOST-SUFFIX,hbogoasia.sg, Max
+HOST-SUFFIX,hbogoasia.tw, Max
+HOST-SUFFIX,hbogoprod-vod.akamaized.net, Max
+HOST-SUFFIX,hbolb.onwardsmg.com, Max
+HOST-SUFFIX,hbomax.com, Max
+HOST-SUFFIX,hbomaxcdn.com, Max
+HOST-SUFFIX,hbomaxdash.s.llnwi.net, Max
+HOST-SUFFIX,hbonow.com, Max
+HOST-SUFFIX,hbounify-prod.evergent.com, Max
+HOST-SUFFIX,manifest.prod.boltdns.net, Max
+HOST-SUFFIX,maxgo.com, Max
+HOST-SUFFIX,now-ashare.com, Max
+HOST-SUFFIX,now-tv.com, Max
+HOST-SUFFIX,now.com, Max
+HOST-SUFFIX,now.com.hk, Max
+HOST-SUFFIX,nowe.com, Max
+HOST-SUFFIX,nowe.hk, Max
+HOST-SUFFIX,players.brightcove.net, Max
+HOST-SUFFIX,youboranqs01.com, Max
+USER-AGENT,HBO%20NOW*, Max
+USER-AGENT,HBOMAX*, Max
+USER-AGENT, HBOAsia*, Max
+USER-AGENT,*Max*, Max
+HOST, 44wilhpljf.execute-api.ap-southeast-1.amazonaws.com, Max
+HOST-WILDCARD, hboasia*-i.akamaihd.net, Max
+HOST-SUFFIX, s3-ap-southeast-1.amazonaws.com, Max
+HOST-SUFFIX, max.com, Max
+HOST-SUFFIX, discomax.com, Max
+user-agent, HBOAsia*, Max
+HOST-SUFFIX,arkoselabs.com, Max
+HOST-SUFFIX,brightline.tv, Max
+
+
+# > Analysis
+HOST,app-analytics-services.com, Max
+HOST,kpck4q-launches.appsflyersdk.com, Max
+HOST,kpck4q-skadsdkless.appsflyersdk.com, Max
+HOST,out053a3bejgh7t0phqa0csou.litix.io, Max
+HOST,sdk.iad-01.braze.com, Max
+HOST-SUFFIX,branch.io, Max
+HOST-SUFFIX, apptentive.com, Max
