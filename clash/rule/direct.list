@@ -42,3 +42,9 @@ DOMAIN-SUFFIX,tendawifi.com
 DOMAIN-SUFFIX,zte.home
 DOMAIN-SUFFIX,tplogin.cn
 DOMAIN-SUFFIX,wifi.cmcc
+
+PROCESS-NAME,transmission-daemon.exe
+
+DOMAIN-SUFFIX,oyunfor.com
+DOMAIN-SUFFIX,xunhupay.com
+DOMAIN-SUFFIX,aliyundrive.cloud
