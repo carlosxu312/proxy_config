@@ -97,7 +97,7 @@ async function Main(){
           else{
             try{
               let obj = JSON.parse(data);
-              if (obj['resultode'] == 200){
+              if (obj['resultCode'] == 200){
                 magicJS.log('登录成功');
                 resolve(true);
               }
